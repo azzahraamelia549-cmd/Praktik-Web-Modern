@@ -1,0 +1,16 @@
+/* src/components/Header/Header.css */
+.header {
+  background-color: #1a2a40; /* biru tua elegan */
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  border-bottom: 5px solid #00aaff; /* garis biru cerah */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 1px;
+}

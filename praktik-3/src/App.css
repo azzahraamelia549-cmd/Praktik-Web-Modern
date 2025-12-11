@@ -1,0 +1,51 @@
+.app {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+/* Bagian judul */
+.section-title {
+  text-align: center;
+  color: #1a2a40;
+  border-bottom: 3px solid #0077cc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.user-section,
+.product-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.user-form input,
+.user-form select {
+  width: 60%;
+  max-width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.user-form button {
+  margin-top: 10px;
+}
